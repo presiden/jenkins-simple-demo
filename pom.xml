@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.subrutin</groupId>
-  <artifactId>simple-jenkins-demo</artifactId>
+  <artifactId>simple-jenkins-demo-prasidyo</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <name>simple-jenkins-demo</name>
@@ -72,4 +72,11 @@
       </plugins>
     </pluginManagement>
   </build>
+	
+	<distributionManagement>
+		<snapshotRepository>
+	      <id>academy-prasidyo</id>
+	      <url>https://nexus.nostratech.com/repository/com.nostratech.academy/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
